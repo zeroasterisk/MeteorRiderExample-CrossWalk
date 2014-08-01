@@ -12,11 +12,13 @@ including the CrossWalk package downloaded and extracted.
 
 ```
 $ cd /tmp
-$ git clone https://github.com/zeroasterisk/MeteorRiderExampleCrosswalk.git
+$ git clone https://github.com/zeroasterisk/MeteorRiderExample-CrossWalk.git MRExample
 $ ~/crosswalk-cordova-8.37.185.0-arm/bin/create /tmp/MeteorRiderExampleCrosswalk.8.37.185.0.arm com.example.mr mr
 $ cd MeteorRiderExampleCrosswalk.8.37.185.0.arm
-$ cp ../MeteorRiderExampleCrosswalk/assets/www/js/meteor-rider.js assets/www/js/
-$ cp ../MeteorRiderExampleCrosswalk/assets/www/js/app.js assets/www/js/
-$ cp ../MeteorRiderExampleCrosswalk/assets/www/index.html assets/www/
+$ cp ../MRExample/assets/www/js/meteor-rider.js assets/www/js/
+$ cp ../MRExample/assets/www/js/app.js assets/www/js/
+$ cp ../MRExample/assets/www/index.html assets/www/
 $ ./cordova/run
 ```
+
+Tested on an old Android Xoom on Ice Cream Sandwich... *Living large...*
