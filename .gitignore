@@ -1,0 +1,67 @@
+##
+## This file is the suggested default .gitignore to be used by cca applications
+##
+*.un~
+*.swp
+
+# Usually, you shouldn't version control `platforms/` and `plugins/`. They are
+# build artefacts which change from machine to machine and over time.
+# If you are manually making edits in these folders, proceed with caution.
+platforms/
+plugins/
+
+# Other cca artefacts.
+cca
+cca.cmd
+
+# https://raw.githubusercontent.com/crilleengvall/gitignore/master/Phonegap.gitignore
+# ANDROID / ECLIPSE
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files - android project subfolder
+Android/bin/
+Android/gen/
+Android/assets/
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# IOS / Xcode
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+IOS/www/
+
+# OSX
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
